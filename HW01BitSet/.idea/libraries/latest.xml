@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="latest">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:///usr/java/latest" />
+    </SOURCES>
+    <jarDirectory url="file:///usr/java/latest" recursive="false" type="SOURCES" />
+  </library>
+</component>

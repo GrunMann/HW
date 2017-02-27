@@ -1,20 +1,20 @@
 package Unit02.homework.epum;
 
-public class WorkPlace {
+public class WorkPlace  {
     private String workToolsList="";
     private double workToolsCost=0;
     public void addToWorkplace(String toolName){
         WritingTool tool = new WritingTool(toolName);
-        workToolsList+=" "+tool.getName();
+        workToolsList+=tool.getName()+" ";
         workToolsCost+=tool.getPrice();
     }
     public void removeFromWorkplace(String toolName){
         if(workToolsList.contains(toolName)){
             WritingTool tool = new WritingTool(toolName);
-            workToolsList.replaceFirst(toolName+" ","");
+            workToolsList=workToolsList.replaceFirst(toolName+" ","");
             workToolsCost-= tool.getPrice();
         }else{
-            System.out.println("Wrong tool name. Nothing deleted.");
+            System.out.println("Wrong tool name \""+toolName+"\". Nothing deleted.");
         }
     }
 

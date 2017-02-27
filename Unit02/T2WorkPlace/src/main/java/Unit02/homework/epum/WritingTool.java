@@ -7,15 +7,15 @@ public class WritingTool {
     private double toolPrice;
 
     public WritingTool(String toolName) {
-        for (int i = 0; i<toolName.length(); i++){
+        for (int i = 0; i<toolNames.length; i++){
             if (toolName==toolNames[i]){
                 this.toolName = toolName;
                 this.toolPrice = toolPrices[i];
             }
         }
         if (this.toolName!=toolName){
-            System.out.println("This tool is unknown!");
-            this.toolName = "Unknown_"+toolName;
+            System.out.println(toolName+" - tool is unknown!");
+            this.toolName = "Unknown";
             this.toolPrice = 0;
         }
     }

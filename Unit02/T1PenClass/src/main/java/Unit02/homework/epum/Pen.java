@@ -44,7 +44,6 @@ public class Pen {
         if (Double.compare(pen.price, price) != 0) return false;
         return colour.equals(pen.colour);
     }
-
     public int hashCode() {
         int result = super.hashCode();
         long temp;

@@ -20,4 +20,11 @@ public class Pencil extends WritingTool{
     public double getToolPrice() {
         return super.getToolPrice();
     }
+
+    @Override
+    public String toString() {
+        return "Pencil{" +
+                "toolPrice=" + toolPrice +
+                '}';
+    }
 }

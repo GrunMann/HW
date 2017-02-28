@@ -11,6 +11,13 @@ public class Paper extends WritingTool {
     }
 
     @Override
+    public String toString() {
+        return "Paper{" +
+                "toolPrice=" + toolPrice +
+                '}';
+    }
+
+    @Override
     public String getToolName() {
         return super.getToolName();
     }

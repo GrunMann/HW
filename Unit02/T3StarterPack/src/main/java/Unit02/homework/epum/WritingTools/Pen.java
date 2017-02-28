@@ -21,4 +21,11 @@ public class Pen extends WritingTool {
     public double getToolPrice() {
         return super.getToolPrice();
     }
+
+    @Override
+    public String toString() {
+        return "Pen{" +
+                "toolPrice=" + toolPrice +
+                '}';
+    }
 }

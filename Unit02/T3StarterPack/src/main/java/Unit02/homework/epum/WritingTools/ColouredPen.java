@@ -20,4 +20,12 @@ public class ColouredPen extends WritingTool {
     public double getToolPrice() {
         return super.getToolPrice();
     }
+
+    @Override
+    public String toString() {
+        return "ColouredPen{" +
+                "toolPrice=" + toolPrice +
+                ", colour='" + colour + '\'' +
+                '}';
+    }
 }

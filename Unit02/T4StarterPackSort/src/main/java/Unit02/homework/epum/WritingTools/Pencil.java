@@ -13,12 +13,12 @@ public class Pencil extends WritingTool{
 
     @Override
     public String getToolName() {
-        return super.getToolName();
+        return toolName;
     }
 
     @Override
     public double getToolPrice() {
-        return super.getToolPrice();
+        return toolPrice;
     }
 
     @Override

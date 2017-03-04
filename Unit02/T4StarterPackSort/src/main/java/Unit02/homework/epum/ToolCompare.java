@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+@SuppressWarnings("ALL")
 public class ToolCompare {
     public void compareByName(List<WritingTool> starterPack){
         Comparator<WritingTool> comparator = new Comparator<WritingTool>() {
